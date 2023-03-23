@@ -1,0 +1,62 @@
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a2f;
+}
+
+#content {
+    display: block;
+    width: 100%;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20em;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    font-weight: normal;
+    font-size: 1.6rem;
+}
+
+p {
+    margin-top: 1em;
+    color: #99d5f8;
+}
+p a {
+    color: #4e8af1;
+}
+
+#logo-banner {
+    display: flex;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.2em;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 5rem;
+    color: #eeffee;
+    text-align: left;
+}
+#logo-banner .left {
+    line-height: 0;
+}
+#logo-banner .right {
+    line-height: 1em;
+    letter-spacing: 0.015em;
+    background: rgb(126,199,241);
+    background: linear-gradient(132deg, rgba(126,199,241,1) 0%, rgba(54,119,232,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+}
