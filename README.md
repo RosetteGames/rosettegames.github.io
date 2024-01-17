@@ -1,1 +1,1 @@
-The website of Rosette Games: https://RosetteGames.com
+The website of Rosette Games: https://rosettegames.com
